@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient(rgba(85, 85, 252, 0.608), rgba(85, 85, 252, 0.608)), url(https://devmagazine.co/wp-content/uploads/2018/08/Por-esto-debes-ser-programador-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-blend-mode:soft-light;*/
+    color: rgb(233, 233, 233);
+    font-family: "Alata";
+    text-align: center;
+}
+#title{
+    font-weight: lighter;
+    margin-top: 1em;
+    font-size: 35px;
+
+}
+#description{
+    margin-top: -0.8em;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 100;
+}
+form{
+    background-color: rgba(37, 22, 49, 0.8);
+    max-width: 600px;
+    width: 100%;
+    margin:auto;
+    text-align: left;
+    padding: 2em;
+    font-size: 19px;
+}
+
+#name,#email,#number,#favorite,#dropdown{
+    width: 100%;
+    margin-top: 10px;
+    padding: 9px;
+    height: 40px;
+    font-family: "Alata";
+    font-size: 16px;
+    border: none;
+    border-radius: 1.5%;
+}
+.detail{
+    font-size: 15px;
+    color: rgb(233, 233, 233,0.8);
+}
+#dropdown,#favorite{
+    color: rgba(0, 0, 0, 0.6);
+}
+#favorite option,#dropdown option{
+    padding: 9px;
+    margin-top: 10px;
+    font-family: "Alata";
+    font-size: 16px;
+}
+#opinion input{
+    position: relative;
+    top: 2px;
+    left: -3px;
+    margin-top: 7px;
+    height: 19px;
+    width: 19px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+#options input{
+    margin-top: 7px;
+    position: relative;
+    top: 2px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+#suggestions{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 90px;
+    height: 150px;
+    font-family: "Alata";
+    font-size: 19px;
+    padding: 5px;
+}
+#submit{
+    background: rgba(73, 255, 73, 0.6);
+    width: 100%;
+    margin: auto;
+    padding: 0.6em;
+    border: none;
+    border-radius: 1.5%;
+    font-family: "Alata";
+    font-size: 16px;
+    color:rgb(233, 233, 233);
+    margin-bottom: 20px;
+}
